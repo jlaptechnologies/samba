@@ -2,7 +2,7 @@
 
 # Samba
 
-Samba docker container, updated version of dperson/samba
+Samba docker container, updated version of justinpatchett/samba
 
 # What is Samba?
 
@@ -16,13 +16,13 @@ By default there are no shares configured, additional ones can be added.
 
 ## Hosting a Samba instance
 
-    sudo docker run -it -p 139:139 -p 445:445 -d dperson/samba -p
+    sudo docker run -it -p 139:139 -p 445:445 -d justinpatchett/samba -p
 
 OR set local storage:
 
     sudo docker run -it --name samba -p 139:139 -p 445:445 \
                 -v /path/to/directory:/mount \
-                -d dperson/samba -p
+                -d justinpatchett/samba -p
 
 ## Configuration
 
