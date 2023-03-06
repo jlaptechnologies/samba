@@ -2,7 +2,7 @@
 
 # Samba
 
-Samba docker container, updated version of justinpatchett/samba
+Samba docker container, updated version of dperson/samba
 
 # What is Samba?
 
