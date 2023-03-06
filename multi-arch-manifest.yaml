@@ -1,0 +1,6 @@
+image: justinpatchett/samba:latest
+manifests:
+  - image: justinpatchett/samba:amd64
+    platform:
+      architecture: amd64
+      os: linux
